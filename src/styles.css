@@ -1,13 +1,29 @@
-@font-face{
+/* Fuentes del proyecto */
+@font-face {
     font-family: 'Inter';
     src: url('./assets/fonts/Inter-Bold.ttf');
-    
+ }
+
+@font-face{
     font-family: 'CaveatBrush';
     src: url('./assets/fonts/CaveatBrush-Regular.ttf');
+}
 
+@font-face{
     font-family: 'BalooBahijaan';
     src: url('./assets/fonts/BalooBhaijaan2-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'BreeSerif';
+    src: url('./assets/fonts/BreeSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'BalooDa2';
+    src: url('./assets/fonts/BalooDa2-Regular.ttf');
+}
+
 
 *{
     margin: 0;
@@ -80,6 +96,19 @@ h2{
     font-weight: 900;
 }
 
+.titleCards{
+    font-family: 'BreeSerif';
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.txtCards{
+    font-family: 'BalooDa2';
+    font-size: 15px;
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 4px;
+}
 
 .contButons{
     display: flex;
@@ -107,12 +136,35 @@ h2{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .contCards{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin-top: 40px;
+    gap: 200px;
+}
+
+.cardAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 13px;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.5);
+    background: #E8E7E1;
+    padding: 20px;
+    width: 400px;
+}
+
+#Programas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
 }
 
