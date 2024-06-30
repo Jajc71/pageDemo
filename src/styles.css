@@ -4,6 +4,9 @@
     
     font-family: 'Caveat';
     src: url('./assets/fonts/CaveatBrush-Regular.ttf');
+
+    font-family: 'BalooBahijaan';
+    src: url('./assets/fonts/BalooBhaijaan2-Regular.ttf');
 }
 
 *{
@@ -36,6 +39,7 @@ nav ul{
 nav li{
     display: inline-block;
     margin-right: 20px;
+    font-weight: bold;
 }
 
 nav a{
@@ -43,4 +47,27 @@ nav a{
     font-family: 'Inter';
     font-size: 20px;
     color: #FDFDFD;
+}
+
+#Inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+h1{
+    font-family: 'Caveat';
+    color: black;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'BalooBahijaan';
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
 }
