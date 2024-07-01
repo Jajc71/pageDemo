@@ -205,9 +205,15 @@ h2{
     margin-left: 30px;
 }
 
-.infoApp{
+.info{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.infoApp{
+    display: flex;
+    flex-direction: row;
     text-align: justify;
     font-family: 'BalooDa2';
     width: 50%;
@@ -216,9 +222,10 @@ h2{
 .infoCom{
     display: flex;
     flex-direction: column;
-    text-align: justify;
+    text-align: center;
     font-family: 'BalooDa2';
     width: 50%;
+    margin-bottom: 40px;
 }
 
 .btnApp{
@@ -232,4 +239,5 @@ h2{
     width: 300px;
     height: 40px;
     font-weight: 900;
+    cursor: pointer;
 }
