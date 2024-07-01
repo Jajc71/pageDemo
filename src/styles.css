@@ -96,6 +96,35 @@ h2{
     font-weight: 900;
 }
 
+.contButons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15rem;
+}
+
+.btnInicio{
+    font-family: 'BalooBahijaan';
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #39A7A7;
+    color: #ECE4E4;
+    border-width: 0;
+    padding: 4px;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#Nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .titleCards{
     font-family: 'BreeSerif';
     font-weight: normal;
@@ -108,35 +137,6 @@ h2{
     font-weight: normal;
     text-align: justify;
     margin-top: 4px;
-}
-
-.contButons{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15rem;
-}
-
-.btnInicio{
-    font-family: 'BalooBahijaan';
-    font-size: 15px;
-    font-weight: normal;
-    border-radius: 10px;
-    background-color: #39A7A7;
-    color: #ECE4E4;
-    border-width: 0;
-    padding: 2px;
-    width: 159px;
-    height: 28px;
-    font-weight: bold;
-}
-
-#Nosotros{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 40px;
 }
 
 .contCards{
@@ -168,3 +168,38 @@ h2{
     margin-top: 40px;
 }
 
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.cardProgram{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 20px;
+    width: calc(50% - 30px);
+}
+
+.cardProgram h4{
+    font-family: 'BreeSerif';
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cardProgram p{
+    font-family: 'BalooDa2';
+}
+
+.cardProgram ul{
+    font-family: 'BalooDa2';
+    margin-left: 30px;
+}
