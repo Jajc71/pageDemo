@@ -97,11 +97,60 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy"
+        },
+        "cypress-run": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "axio-page:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "axio-page:serve:production"
+            }
+          }
+        },
+        "cypress-open": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "watch": true,
+            "headless": false
+          }
+        },
+        "ct": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "axio-page:serve",
+            "watch": true,
+            "headless": false,
+            "testingType": "component"
+          },
+          "configurations": {
+            "development": {
+              "devServerTarget": "axio-page:serve:development"
+            }
+          }
+        },
+        "e2e": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "axio-page:serve",
+            "watch": true,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "axio-page:serve:production"
+            }
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "81019cab-8596-4ab0-8175-fc9a5b54f559"
+    "analytics": "81019cab-8596-4ab0-8175-fc9a5b54f559",
+    "schematicCollections": [
+      "@cypress/schematic",
+      "@schematics/angular"
+    ]
   }
 }
