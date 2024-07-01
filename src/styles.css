@@ -165,7 +165,7 @@ h2{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .containerCards{
@@ -174,6 +174,7 @@ h2{
     justify-content: space-between;
     margin: 10px auto;
     width: 80%;
+    margin-bottom: 10%;
 }
 
 .cardProgram{
@@ -202,4 +203,20 @@ h2{
 .cardProgram ul{
     font-family: 'BalooDa2';
     margin-left: 30px;
+}
+
+.infoApp{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'BalooDa2';
+    width: 50%;
+}
+
+.infoCom{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-family: 'BalooDa2';
+    width: 50%;
 }
