@@ -220,3 +220,16 @@ h2{
     font-family: 'BalooDa2';
     width: 50%;
 }
+
+.btnApp{
+    font-family: 'BalooBahijaan';
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #C6B41A;
+    color: black;
+    border-width: 0;
+    padding: 4px;
+    width: 300px;
+    height: 40px;
+    font-weight: 900;
+}
